@@ -4,6 +4,14 @@
 
 Este projeto consiste em um gerador de senhas seguras, implementado usando HTML, CSS e JavaScript. O objetivo do projeto é auxiliar os usuários na criação de senhas fortes e difíceis de serem adivinhadas.
 
+# Link do Projeto
+
+Link : Em Desenvolvimento !
+
+# Status do Projeto 
+
+![Badge Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EMDESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 # Tecnologias Aplicadas
 
 <div style="display: inline_block"><br>
