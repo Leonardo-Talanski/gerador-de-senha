@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
 *{
   margin: 0 auto;
   width: 100%;
@@ -29,6 +31,7 @@ body{
 .container-input span {
   color: #000000;
   font-size: 22px;
+  font-family: 'Young Serif', serif;
 }
 
 .slider {
@@ -53,10 +56,12 @@ body{
   font-weight: bold;
   cursor: pointer;
   box-shadow: 5px 5px #3F2E3E;
+  font-family: 'Young Serif', serif;
 }
 
 .button-cta:hover {
-  
+  color: #FFF;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .container-password{
@@ -70,17 +75,19 @@ body{
 
 .title{
   text-align: center;
-  color: #FFF;
+  color: #272829;
   font-size: 28px;
   margin-top: 24px;
   margin-bottom: 8px;
+  font-family: 'Young Serif', serif;
 } 
 
 .password{
   height: 60px;
   background-color: rgba(0,0,0,0.40);
   border: 1px solid #313131;
-  
+  font-family: 'Young Serif', serif;
+  color: #272829;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,12 +100,8 @@ body{
   border-color: #FFF;
 }
 
-.hide{
-  display: none;
-}
 
 .tooltip{
-  color: #FFF;
   position: relative;
   top: 20px;
   padding: 6px 8px;
@@ -109,10 +112,13 @@ body{
   visibility: hidden;
   transition: all .5s ease-in-out;
   text-align: center;
+  font-family: 'Young Serif', serif;
+  color: #272829;
 }
 
-.container-password:hover .tooltip{
+.container-password:hover.tooltip{
   bottom: 50px;
   visibility: visible;
   opacity: 1;
+  color: #FFF;
 }
