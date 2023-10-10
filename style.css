@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #18181B;
+  background-color: #F1EFEF;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -18,6 +18,7 @@ body{
 .logo{
   max-width: 600px;
   margin-bottom: 24px;
+  width: 450px;
 }
 
 .container-input{
@@ -26,7 +27,7 @@ body{
 }
 
 .container-input span {
-  color: #FFF;
+  color: #000000;
   font-size: 22px;
 }
 
@@ -36,7 +37,7 @@ body{
   width: 100%;
   height: 18px;
   border-radius: 5px;  
-  background: #DFDFDF;
+  background: #000000;
   outline: none;
   opacity: 0.7;
 }
@@ -44,13 +45,18 @@ body{
 .button-cta{
   height: 40px;
   margin-top: 40px;
-  background-color: #3EB72B;
+  background-color: #272829;
   border:0;
   border-radius: 4px;
   color: #FFF;
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 5px 5px #3F2E3E;
+}
+
+.button-cta:hover {
+  
 }
 
 .container-password{
